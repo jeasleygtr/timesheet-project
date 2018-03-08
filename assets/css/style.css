@@ -1,14 +1,19 @@
 .jumbotron {
     width: 80%;
-    height: 200px;
+    height: 225px;
     font-family: 'Times New Roman', serif;
     background: black;
     color: white;
     margin-left: 135px;
 }
 
-.subhead {
-    margin-left: 50px;
+#mainhead {
+    text-align: center;
+    font-size: 72px;
+}
+#subhead {
+    text-align: center;
+    font-size: 36px;
 }
 
 .card {
