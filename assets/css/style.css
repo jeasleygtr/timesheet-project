@@ -21,3 +21,16 @@
     margin: auto;
 }
 
+.form-group {
+    width: 80%;
+    height: 200px;
+    margin-left: 135px;
+}
+
+.form-control {
+    padding-bottom: 15px;
+}
+
+.btn-primary {
+    padding-top: 15px;
+}
