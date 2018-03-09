@@ -6,7 +6,7 @@ var config = {
   storageBucket: "most-recent-user-f1731.appspot.com",
   messagingSenderId: "832592444801"
 };
-console.log("linked!")
+
 firebase.initializeApp(config);
 
 // Create a variable to reference the database
@@ -31,7 +31,7 @@ $("#add-user").on("click", function() {
   date = $("#date-input").val().trim();
   rate = $("#rate-input").val().trim();
   // Don't forget to provide initial data to your Firebase database.
-  database.ref().set({
+  database.ref().push({
     name: name,
     role: role,
     date: date,
